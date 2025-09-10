@@ -42,25 +42,25 @@ $c = \text{mean}(Y) - m * \text{mean}(X)$
 
 ## How to Run the Code
 
-1. **Open the Notebook:** Open the provided Python notebook file (e.g., `linear_regression_model.ipynb`) in a Jupyter Notebook environment or Google Colab.
+1. **Open the Notebook:** Open the provided Python notebook file (e.g., \`linear_regression_model.ipynb\`) in a Jupyter Notebook environment or Google Colab.
 2. **Run Cells:** Execute each code cell sequentially. The notebook is structured to define the data, calculate the means, slope, and intercept, and define a prediction function.
 
 ## Making Predictions
 
-After running the notebook, you can use the `predict_y` function to predict the marks for a new number of hours studied.
+After running the notebook, you can use the \`predict_y\` function to predict the marks for a new number of hours studied.
 
 The function takes the following arguments:
 
-- `x`: The new value for hours studied.
-- `m`: The calculated slope of the regression line.
-- `c`: The calculated y-intercept.
+- \`x\`: The new value for hours studied.
+- \`m\`: The calculated slope of the regression line.
+- \`c\`: The calculated y-intercept.
 
-To make a prediction, simply call the function with the desired hours and the calculated `m` and `c` values from the notebook execution.
+To make a prediction, simply call the function with the desired hours and the calculated \`m\` and \`c\` values from the notebook execution.
 
-```python
+\`\`\`python
 # Example: Predict marks for 9 hours of study
 predicted_marks = predict_y(x=9, m=m, c=c)
 print(f"Predicted marks for 9 hours of study: {predicted_marks}")
-```
+\`\`\`
 
 The notebook also includes an interactive section where you can input an X value and get a prediction directly.
