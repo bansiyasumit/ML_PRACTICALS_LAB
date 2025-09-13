@@ -19,22 +19,3 @@ This project builds a simple linear regression model from scratch to predict stu
 
 ---
 
-## 📗 Assignment 2: Moving Average Filter – Temperature Smoothing
-
-This script applies 1st-order and 2nd-order moving average filters to daily temperature data.
-
-### 🔹 File: `Moving_average.py`
-
-### 🔹 Features
-- Smooths fluctuations in temperature readings
-- Visualizes original vs filtered data using Matplotlib
-
-### 📊 Output Sample
-```
-Original: [30, 32, 31, 29, 28, 27, 26, 25, 26, 27]
-1st-order MA: [31.0, 31.5, 30.0, 28.5, 27.5, 26.5, 25.5, 25.5, 26.5]
-2nd-order MA: [31.0, 30.67, 29.33, 28.0, 27.0, 26.0, 25.67, 26.0]
-```
-
-### 📈 Visualization
-![Moving Average Output](output_MA.png)
