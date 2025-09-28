@@ -19,7 +19,7 @@ This project builds a simple linear regression model from scratch to predict stu
 
 ---
 
-Here is a **concise** version of the `README.md` for your GitHub repository.
+
 
 ---
 
@@ -58,3 +58,28 @@ The output of the notebook includes a visualization of the **Sigmoid Curve**, sh
 
 * Ages in the lower range (e.g., 20) have a low probability ($\approx 8\%$).
 * Ages in the higher range (e.g., 60) have a high probability ($\approx 91\%$).
+
+
+# 📝 Assignment: LAB 3 - LOGISTIC REGRESSION FROM SCRATCH
+
+This project implements **Logistic Regression** entirely from **scratch** using NumPy, bypassing external libraries like `scikit-learn` to demonstrate the core mathematical model.
+
+---
+
+## 💻 Implementation
+
+* **Model:** `LogisticRegressionScratch` class implementing the Sigmoid function, Binary Cross-Entropy Cost, and Gradient Descent.
+* **Data:** `insurance_data_logistic` (Age $\rightarrow$ Bought Insurance 0/1).
+* **Preprocessing:** The **Age** feature is **standardized** to ensure optimal convergence of the gradient descent algorithm.
+
+---
+
+## 📊 Results
+
+| Metric | Value |
+| :--- | :--- |
+| **Learned Weights ($\beta$ for Scaled Age)** | $\mathbf{2.0971}$ |
+| **Learned Bias ($\beta_0$ / Intercept)** | $\mathbf{0.1107}$ |
+| **Training Accuracy** | $\approx 88.89\%$ |
+
+The notebook includes plots demonstrating the decrease in the **Cost Function** over iterations and the final **Sigmoid Curve** fitted to the data.
