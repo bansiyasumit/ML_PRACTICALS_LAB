@@ -82,4 +82,37 @@ This project implements **Logistic Regression** entirely from **scratch** using 
 | **Learned Bias ($\beta_0$ / Intercept)** | $\mathbf{0.1107}$ |
 | **Training Accuracy** | $\approx 88.89\%$ |
 
-The notebook includes plots demonstrating the decrease in the **Cost Function** over iterations and the final **Sigmoid Curve** fitted to the data.
+The notebook includes plots demonstrating the decrease in the **Cost Function** over iterations and the final **Sigmoid Curve** fitted to the data. 
+
+## 📌 Assignment 4: ID3 Decision Tree
+### Objective
+Implement and analyze the **ID3 Decision Tree algorithm** for classification tasks.
+
+### Tasks
+- Understand entropy and information gain.
+- Build a decision tree using the ID3 algorithm.
+- Train and test the model on a sample dataset.
+- Evaluate performance using accuracy and confusion matrix.
+
+### Expected Output
+- A decision tree structure showing splits based on attributes.
+- Classification results with evaluation metrics.
+
+---
+
+## 📌 Assignment 5: K-Nearest Neighbors (KNN)
+### Objective
+Implement and evaluate the **KNN algorithm** for classification.
+
+### Tasks
+- Implement KNN with varying values of *k*.
+- Use distance metrics (Euclidean/Manhattan).
+- Train and test the model on a sample dataset.
+- Compare performance for different *k* values.
+
+### Expected Output
+- Classification results for different *k* values.
+- Accuracy comparison table/graph.
+- Observations on how *k* affects performance.
+
+---
