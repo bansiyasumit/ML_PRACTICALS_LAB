@@ -282,18 +282,23 @@ No built-in `sklearn.cluster.KMeans` is used.
 
 ---
 
+
 ## Objective Function
 
-The algorithm minimizes:
+The K-Means algorithm minimizes:
 
-[
+$$
 J = \sum_{i=1}^{k} \sum_{x \in C_i} \lVert x - \mu_i \rVert^2
-]
+$$
 
-Where:
+---
 
-* ( C_i ) = cluster ( i )
-* ( \mu_i ) = centroid of cluster ( i )
+## Where
+
+* ( C_i ) : Cluster ( i )
+* ( \mu_i ) : Centroid of cluster ( i )
+
+
 
 ---
 
