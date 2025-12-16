@@ -199,25 +199,40 @@ The model learns optimal parameters by minimizing **Mean Squared Error (MSE)** a
 * Synthetic linear dataset with Gaussian noise
 * Simulates real-world regression behavior
 
----
 
-## Algorithm
 
-The model learns parameters using:
+## Gradient Descent Update Rules
 
-[
+$$
 w = w - \alpha \frac{\partial L}{\partial w}
-]
-[
-b = b - \alpha \frac{\partial L}{\partial b}
-]
+$$
 
-Where the loss function is:
-[
-L = \frac{1}{n}\sum (y_{pred} - y)^2 + \lambda ||w||^2
-]
+$$
+b = b - \alpha \frac{\partial L}{\partial b}
+$$
 
 ---
+
+## Loss Function (MSE + L2 Regularization)
+
+$$
+L = \frac{1}{n} \sum_{i=1}^{n} (y_{\text{pred}} - y)^2 + \lambda \lVert w \rVert^2
+$$
+
+---
+
+## Notation
+
+* ( w ) : Weight parameter
+* ( b ) : Bias parameter
+* ( \alpha ) : Learning rate
+* ( L ) : Loss function
+* ( n ) : Number of samples
+* ( \lambda ) : Regularization coefficient
+
+---
+
+
 
 ## Output
 
