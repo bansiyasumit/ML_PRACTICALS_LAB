@@ -242,6 +242,68 @@ $$
 
 
 
+---
+
+# Assignment 8: K-Means Clustering (From Scratch)
+
+## Overview
+
+This project implements the **K-Means clustering algorithm from scratch** using Python and NumPy.
+The algorithm groups unlabeled data into **k clusters** by minimizing the distance between data points and their assigned cluster centroids.
+
+No built-in `sklearn.cluster.KMeans` is used.
+
+---
+
+## Features
+
+* Pure NumPy implementation
+* Random centroid initialization
+* Euclidean distance computation
+* Convergence check using centroid movement
+* Cluster and centroid visualization
+
+---
+
+## Dataset
+
+* Synthetic 2D dataset with three natural clusters
+* Generated using Gaussian distributions
+
+---
+
+## Algorithm Steps
+
+1. Choose number of clusters ( k )
+2. Initialize centroids randomly
+3. Assign each data point to the nearest centroid
+4. Update centroids as the mean of assigned points
+5. Repeat until centroids converge
+
+---
+
+## Objective Function
+
+The algorithm minimizes:
+
+[
+J = \sum_{i=1}^{k} \sum_{x \in C_i} \lVert x - \mu_i \rVert^2
+]
+
+Where:
+
+* ( C_i ) = cluster ( i )
+* ( \mu_i ) = centroid of cluster ( i )
+
+---
+
+## Output
+
+* Final cluster assignments
+* Learned centroids
+* Visual plot of clusters and centroids
+
+
 
 
 
