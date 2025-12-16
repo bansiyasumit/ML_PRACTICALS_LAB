@@ -115,4 +115,59 @@ Implement and evaluate the **KNN algorithm** for classification.
 - Accuracy comparison table/graph.
 - Observations on how *k* affects performance.
 
+
+# Assignment 6: Linear Support Vector Machine (SVM)
+
+## Overview
+
+This project implements a **Linear Support Vector Machine (SVM)** classifier using **Python and scikit-learn**.
+The model learns a straight-line decision boundary that separates two classes with maximum margin.
+
 ---
+
+## Dataset
+
+* Built-in **Iris dataset** (two classes used)
+* Can be replaced with any **custom CSV dataset**
+
+---
+
+## Tools Used
+
+* Python
+* scikit-learn
+* NumPy
+* Pandas
+* Matplotlib
+* Google Colab
+
+---
+
+## Steps
+
+1. Load dataset
+2. Split into train and test sets
+3. Apply feature scaling
+4. Train Linear SVM
+5. Predict and evaluate
+6. Visualize decision boundary
+
+---
+
+## Model
+
+```python
+SVC(kernel='linear', C=1.0)
+```
+
+---
+
+## Output
+
+* Accuracy score
+* Confusion matrix
+* Classification report
+* Decision boundary plot
+
+
+
