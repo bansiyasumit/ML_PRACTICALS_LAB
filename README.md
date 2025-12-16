@@ -171,3 +171,64 @@ SVC(kernel='linear', C=1.0)
 
 
 
+---
+
+# Assignment 7: Gradient Descent Optimization (From Scratch)
+
+## Overview
+
+This project implements **Gradient Descent optimization from scratch** for **Linear Regression** using Python and NumPy.
+The model learns optimal parameters by minimizing **Mean Squared Error (MSE)** and successfully fits a regression line to noisy data.
+
+---
+
+## Key Features
+
+* Vectorized Gradient Descent implementation
+* Train / validation split
+* Feature scaling
+* Learning rate decay
+* L2 regularization
+* Early stopping
+* Loss curve and model fit visualization
+
+---
+
+## Dataset
+
+* Synthetic linear dataset with Gaussian noise
+* Simulates real-world regression behavior
+
+---
+
+## Algorithm
+
+The model learns parameters using:
+
+[
+w = w - \alpha \frac{\partial L}{\partial w}
+]
+[
+b = b - \alpha \frac{\partial L}{\partial b}
+]
+
+Where the loss function is:
+[
+L = \frac{1}{n}\sum (y_{pred} - y)^2 + \lambda ||w||^2
+]
+
+---
+
+## Output
+
+* Smooth decrease in training and validation loss
+* Best-fit regression line over noisy data
+* Stable convergence without divergence
+
+
+
+
+
+
+
+
